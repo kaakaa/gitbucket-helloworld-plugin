@@ -1,0 +1,6 @@
+@(name: String)(implicit context: gitbucket.core.controller.Context)
+@import context._
+@import gitbucket.core.view.helpers
+@gitbucket.core.html.main("") {
+  <p>Hello @name</p>
+}
